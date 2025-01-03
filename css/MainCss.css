@@ -130,8 +130,7 @@
       @media (max-width:600px){
         
     .classfooter{
-      max-width: 600px;
-      min-width: 250px;
+      width: 600px;   
       background-color: #a1e7cf;
     
       }
