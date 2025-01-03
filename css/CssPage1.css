@@ -175,7 +175,7 @@ line-height: 2em;
  
 .footercontainer{
 max-width: 1300px;
-min-width: 200px;
+/* min-width: 200px; */
 padding-top:20px;            
 display: flex;
 
