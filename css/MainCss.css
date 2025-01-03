@@ -21,8 +21,7 @@
            
             background-repeat: no-repeat;      
             height:540px;
-            max-width: 600px;  
-            min-width: 250px;                               
+            width: 600px;                                          
             background-repeat: no-repeat;           
             margin-left: auto;
             margin-right: auto;
@@ -52,8 +51,7 @@
           position: relative;
           background-image:url('./images/Petsheader4.jpg');
           height: 500px;
-          width: 600px;  
-          min-width: 250px;   
+          width: 600px;        
           /* min-width: 200px;  */
           background-repeat: no-repeat;
           background-size: cover;
@@ -148,6 +146,13 @@
     font-size: 14px;
     margin-left: auto;
     margin-right: auto;
+    }
+
+
+    @media (max-width:600px){
+      .footercontainer{
+      width: 600px;
+      }
     }
     .columns1{
     width: 30%;     
