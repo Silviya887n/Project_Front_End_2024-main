@@ -70,9 +70,17 @@
         flex-wrap: wrap;
         gap:5em;     
         max-width: 1300px;
-        min-width: 200px; 
+        min-width: 600px; 
       
         } 
+
+        @media (max-width:600px) {
+          #content-page{
+         
+            width: 600px; 
+          
+            } 
+        }
        
 
         /* @media (max-width:600px){.innerhead{ new1

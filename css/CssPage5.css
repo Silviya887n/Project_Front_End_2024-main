@@ -118,6 +118,7 @@
  }
 
  .content{
+    padding: 15px;
     display: block;
     /* width: 1000px; */
      /*display: flex;
