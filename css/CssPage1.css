@@ -173,10 +173,10 @@ line-height: 2em;
 }
 
  
-.footercontainer{
+/* .footercontainer{
 max-width: 1300px;
 /* min-width: 200px; */
-padding-top:20px;            
+/* padding-top:20px;            
 display: flex;
 
 box-sizing: border-box;
@@ -185,7 +185,7 @@ font-family:  Arial, Helvetica, sans-serif  ;
 font-size: 14px;
 margin-left: auto;
 margin-right: auto;
-}
+} */
 .columns1{
 width: 30%;     
 line-height: 2em;
