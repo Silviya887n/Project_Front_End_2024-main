@@ -122,20 +122,19 @@
              line-height: 2em;
              
          }
-         footer{
+         /* footer{
              height: 200px;
              max-width: 100vw;
              min-width: 200px;
              margin:0 auto;
              background-color: #a1e7cf; 
-         }
+         } */
         
          .footercontainer{
+         max-width: 1300px;
          padding-top:20px;            
          display: flex;
- 
-         box-sizing: border-box;
-         
+         box-sizing: border-box;        
          font-family:  Arial, Helvetica, sans-serif  ;
          font-size: 14px;
          margin-left: auto;
