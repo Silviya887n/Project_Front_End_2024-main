@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+    <script src="js/jquery.js" type="text/javascript"></script>
+	<script src="js/jquery.lightbox-0.5.pack.js" type="text/javascript"></script>
+	<script src="js/jquery.lightbox-0.5.js" type="text/javascript"></script>
+	<script src="js/lightbox.js" type="text/javascript"></script>
+	<!--<script src="js/lightbox.js" type="text/javascript"></script>-->
+
+	<script type="text/javascript">
+
+	$(function() {
+		$('#gallery a').lightBox({fixedNavigation:true});
+	});
+
+    </script>      
+    <link rel="stylesheet" href="./css/MainCss.css">
+    <link rel="stylesheet" href="./css/Csspage3.css">  
+    <link rel="stylesheet" href="css/jquery.lightbox-0.5.css" type="text/css" media="screen" />
+	
+    <style>
+        .innerhead{  
+        background-image:url('./images/Petsheader4.jpg');
+        }
+      </style>
+</head>
+<body>
+<div class="container">
+<header class="header1">
+<div class="innerhead"> 
+        <div class="logo"><img src="./images/pets-hotel-sign_35010.png"> </div>    
+        <div class="star"><i class="fa-regular fa-star"></i></div>   
+</div>
+        <ul  class="menu1">           
+            <li><a href="./index.html">Начало</a></li>
+            <li><a href="./Services.html">Услуги</a></li>
+            <li><a href="./GalleryPage.html">Галерия</a></li>
+            <li><a href="./ContactPage.html">Контакти</a></li>
+            <li><a href="./PriceList.html">Ценораспис</a> </li>
+        </ul>
+        <hr/>
+        </header>
+        <main id="content-page">
+            <ul id="gallery"><li><a href="./images/Galleryimages/image1.jpg">
+            <img src="./images/Galleryimages/thumb_image1.jpg" title="For this example: $('#gallery a').lightBox();"></a></li>
+            <li><a href="./images/Galleryimages/image2.jpg"><img src="./images/Galleryimages/thumb_image2.jpg"></a>
+            </li>
+            <li><a href="./images/Galleryimages/image3.jpg"><img src="./images/Galleryimages/thumb_image3.jpg"></a> </li>
+            <li><a href="./images/Galleryimages/image4.jpg"><img src="./images/Galleryimages/thumb_image4.jpg"></a> </li>
+            <li><a href="./images/Galleryimages/image5.jpg"><img src="./images/Galleryimages/thumb_image5.jpg"></a> </li>
+            <li><a href="./images/Galleryimages/image6.jpg"><img src="./images/Galleryimages/thumb_image6.jpg"></a> </li>
+            <li><a href="./images/Galleryimages/image7.jpg"><img src="./images/Galleryimages/thumb_image7.jpg"></a> </li>
+        </ul>
+        </main>
+</div>
+<footer class="classfooter">
+    <div class="footercontainer">
+            <div class="columns1">                         
+                 <h2>Pet Hotel<h2/>
+                 <ul><li><a href="./ContactPage.html">Контактна форма</a></li>
+                 <li> <a href="./index.html">За нас</a></li>
+             </ul>                   
+            </div>
+            <div class="columns2">
+              <h2>Адрес</h2>
+              <ul><li><a href="">  1265 София 1000</a></li>             
+              <li><a></a href=""><i class="fa-solid fa-mobile-screen-button"></i> &nbsp;301-387-7729</a></li>
+              <li><a></a href=""><i class="fa-regular fa-envelope"></i>  &nbsp;testgmail.com</a></li></ul>
+            </div>
+            <div class="columns3">
+            <h2>Работно време</h2>
+            <ul>
+            <li><i class="fa-regular fa-clock"></i> &nbsp;Понеделник - Петък 08:00 – 18:00</li>
+            <li><i class="fa-regular fa-clock"></i> &nbsp;Събота - Неделя 09:00 – 15:00</li>  
+            </ul>
+            </div>
+            <div class="columns4">
+                <ul>
+                <li><a href="https://www.facebook.com/" target="_blank"> <i class="fa-brands fa-facebook fa-2x"></i></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-linkedin-in fa-2x"></i> </a></li>
+                <li><a href="https://bg.linkedin.com/" target="_blank">  <i class="fa-brands fa-square-instagram  fa-2x"></i></a></li>
+                   
+                </ul>
+            </div>   
+    </div>
+</footer>
+</body>
+</html>
